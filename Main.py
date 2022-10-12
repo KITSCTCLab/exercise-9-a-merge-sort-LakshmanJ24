@@ -4,7 +4,7 @@ def merge_sort(data) -> None:
   # Write code here
   if len(data)>1:
     mid = len(data)//2
-    lefthalf = data[mid]
+    lefthalf = data[:mid]
     righthalf = data[mid:]
     merge_sort(lefthalf)
     merge_sort(righthalf)
