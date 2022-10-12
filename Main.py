@@ -16,7 +16,7 @@ def merge_sort(data) -> None:
       else:
         data[k]=righthalf[j]
         j=j+1
-        k=k+1
+      k=k+1
     while i < len(lefthalf):
       data[k]=lefthalf[i]
       i=i+1
